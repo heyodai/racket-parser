@@ -1,5 +1,5 @@
 #lang br
-(require "parser.rkt" "tokenizer.rkt" brag/support)
+(require "grammar.rkt" "tokenizer.rkt" brag/support)
 
 (define (parse file-name)
   (define file-content (port->string (open-input-file file-name) #:close? #t))
