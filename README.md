@@ -7,12 +7,15 @@ One caveat is that the error messages are not as nice as I'd like. Ideally they 
 ## File Structure
 
 - **main.rkt** - Main program. Contains the `parse()` function.
+- **grammar.rkt** - Contains grammar notation for `#brag` module. BNF-esque.
+- **tokenizer.rkt** - Tokenize input stream before passing to `grammar.rkt`.
+- **unit-tester.rkt** - Allows easier testing of input files. Not used in final product.
 
 ## Development Resources
 
 ## Grammar Breakdown
 
-![](whiteboard.JPG)
+![whiteboard](whiteboard.JPG)
 
 <br>
 
