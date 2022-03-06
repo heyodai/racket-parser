@@ -13,11 +13,18 @@ One caveat is that the error messages are not as nice as I'd like. Ideally they 
 
 ## Development Resources
 
+I heavily consulted the [Beautiful Racket tutorials](https://beautifulracket.com/#tutorials) for this assignment, especially the `bf` and `jsonic` exercises. Although I wrote my own code, there may be some structural similarities to these exercises.
+
+My code relies on a couple of educational libraries that were developed for the Beautiful Racket book: 
+
+- [#br](https://docs.racket-lang.org/br/) by Matthew Butterick
+- [#brag](https://docs.racket-lang.org/brag/) by Matthew Butterick and Danny Yoo
+
+Finally, I frequently consulted the [official Racket docs](https://docs.racket-lang.org/) in developing this code.
+
 ## Grammar Breakdown
 
 ![whiteboard](whiteboard.JPG)
-
-<br>
 
 ## Unit Tests
 
