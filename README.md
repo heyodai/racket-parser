@@ -1,6 +1,6 @@
 # Racket Parser
 
-A simple Racket parser done as part of my course work for CS 441. It reads in source code, compares it to an internal grammar, and outputs either `Accept` or an error message.
+A simple Racket parser. It reads in source code, compares it to an internal grammar, and outputs either `Accept` or an error message.
 
 One caveat is that the error messages are not as nice as I'd like. Ideally they would read something like `Syntax error on line 5`, but currently we're getting `Encountered unexpected token of type 'MISC (value "*") while parsing 'unknown [line=5, column=#f, offset=73]`. I probably need the [srcloc](https://docs.racket-lang.org/reference/exns.html#%28def._%28%28quote._~23~25kernel%29._srcloc-~3estring%29%29) function to get the output I want, but I haven't been able to get it working right.
 
